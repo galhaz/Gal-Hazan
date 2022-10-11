@@ -1,0 +1,423 @@
+
+
+#HomePage{
+
+    background: url("/images/homePage.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: bold !important;
+
+}
+
+div.transbox {
+    width: 600px,400px;
+    height: 700px;
+    margin: 50px;
+    background-color: #ffffff;
+    border: 12px  #51ABBE;
+    opacity: 0.7;
+  }
+  
+  div.transbox p {
+    margin: 2%;
+
+
+  }
+
+@keyframes slider {
+    25% {
+        background-image: url("/images/homePage.jpg");
+        
+
+    }
+    50% {
+        background-image: url("/images/homePage2.jpg");
+
+
+    }
+    75% {
+        background-image: url("/images/homePage3.jpg");
+
+    }
+    100% {
+        background-image: url("/images/homePage4.jpg");
+
+    }
+}
+
+.nav{
+
+    /* Home About us Contact us */
+position: relative;
+width: 500px;
+height: 67px;
+left: -24px;
+top: 22px;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+}
+
+
+.list-item{
+    display: inline-block;
+    padding-left: 10px;
+    margin-inline: 10px;
+}
+
+#header_homePage,#mainHeader_ChooseYourProfile,h2,h1{
+position: relative;
+margin: auto;
+width: 50%;
+padding: 10px;
+display: inline;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+align-items: center;
+text-align: center;
+color: #51ABBE;
+bottom: -2px;
+}
+
+
+  .input_signUp{
+    position: relative;
+    left: 200px;
+    display: block;
+    margin-bottom:10px;
+    margin-top:20px ;
+  }
+
+
+
+p{
+  
+    position: relative;
+    left: 180px;
+    bottom: -10px;
+    color: #51ABBE;
+    font-weight: bold;
+    font-size: 24 !important;
+}
+
+#SignUp,#SignUpParent,#FindYourMatchPage,#contactUs{
+    background: url("/images/SignUp.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: bold !important;
+    text-align: center;
+    display: block; 
+    position: relative;
+    min-height: 100vh; 
+    background-size:cover;
+}
+#SignUpParent{
+    background: url("/images/SignUpParent.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: bold !important;
+    text-align: center;
+    display: block; 
+    position: relative;
+    min-height: 100vh; 
+    background-size:cover;
+
+}
+#header_ChooseYoureProfile{
+    padding-bottom: 300px;
+    padding-left: 10px;
+    margin-inline: 10px;
+}
+
+#mainHeader_ChooseYourProfile{
+    position: relative;
+    bottom: -40px;
+
+}
+#contactForm{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	background-color: #d6e7f3;
+    color: darkblue;
+
+}
+
+
+#email_SUP, #pw1,#pw2{
+    margin: 5px 0 22px ;
+    height: 25px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    width: 100%;
+
+
+
+  }
+  #email_SUP, #pw1,#pw2{
+    width: 50%;
+    background: #f1f1f1;
+    padding: 15px;
+    background-color: #ddd;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+
+
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+
+  }
+
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  
+  /* Float cancel and signup buttons and add an equal width */
+    .SubmitBtn {
+    float: center;
+    width: 40%;
+  }
+
+
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+     .signupbtn {
+      width: 100%;
+    }
+  }
+
+  .custom-select {
+    position: relative;
+
+    left: 500px;
+    bottom: -150px;
+  }
+
+  .select-selected {
+    background-color:#51ABBE;
+  }
+  select, option {
+    width: 250px;
+}
+
+
+
+#MyMatches{
+    background-image: url("/images/1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat!important;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: bold !important;
+
+    
+}
+
+.active {
+    border: 2px solid rgb(91, 184, 238);
+    border-radius: 15px;
+}
+
+
+
+
+.profile{
+    background: #fbf5f5;
+    opacity: 0.8;
+    color: darkblue;
+    float: left;
+    width: 25%;
+    border-radius: 10%;
+    margin: 3%;
+    text-align: center;
+    font-size: smaller;
+    padding-bottom: 3%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.headings{
+    font-size: 30px;
+    margin-bottom: -3%;
+    margin-left: -350px;
+
+}
+
+
+
+.profile a{
+    color: darkblue;
+}
+
+.profile a:hover{
+    color: white;
+}
+
+button,.HomePageBtn,.SignUpBtn,.SubmitBtn,.FindMyMatchBtn {
+	border-radius: 10px;
+    border-color: darkblue;
+	border: 1px solid darkblue;
+	background-color: #d6e7f3;
+    color: darkblue;
+	font-weight: bold;
+	padding: 5px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.HomePageBtn{
+    border-color: darkblue;
+    position: relative;
+    right: -225px;
+    bottom: 20px;
+    margin-top: 20px;
+}
+.SignUpBtn{
+    border-color: darkblue;
+    position: relative;
+    bottom: 175px;
+}
+.SubmitBtn{
+    border-color: darkblue;
+
+}
+
+.FindMyMatchBtn{
+    border-color: darkblue;
+    display:inline-block;
+    margin-left: 10px;
+    left: -50px;
+    position: relative;
+    bottom: -60px;
+
+}
+
+
+
+button:hover{
+    background-color: #c7e1e6;
+}
+
+.profilePic{
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 1000px){
+    .profilePic{
+        margin-top: 5%;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .headings{
+        font-size: 20px;
+        margin-bottom: -3%;
+        font-weight: bold;
+
+    }
+
+    .profile{
+        font-weight: lighter;   
+    }
+
+    button{
+        padding: 10px 30px;
+	    letter-spacing: 1px;
+    }
+
+}
+
+.content{
+    position: relative;
+    left: -0px;
+    bottom: -30px;
+}
+#header_homePage{
+    position: relative;
+    bottom: -20px;
+}
+#FindYourMatchPage{
+    background: url("/images/FindYourMatch.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: bold !important;
+}
+#header_FindYourMatch{
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+
+}
+h2{
+    bottom: -10px;
+    font-weight: 100;
+}
+#aboutUs{
+    position: relative;
+    font-size: large;
+    margin-left: -200px;
+    bottom: -200px;
+
+}
+
+#SignUpParent{box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 5px;
+}
+
+/* Full-width input fields */
+#email_form,#p1,#p2,#city,#salary,#birthday,#fname,#lname,#gender {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    border-radius: 4px;
+    border: #c7e1e6;
+    box-sizing: border-box;
+    background-color:   #c7e1e6;
+
+}
+#type{
+    margin-left: 200px;
+}
+#chooseType{
+
+    color:#51ABBE;
+}
+
+
+
+
