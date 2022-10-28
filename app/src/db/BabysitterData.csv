@@ -1,0 +1,6 @@
+email,password,firstName,lastName,gender,birthday,city,salary
+gal@walla.com,12345678,Gal,Hazan,M,1996-03-01,"Beer Sheva",30₪-40₪
+gil@gmail.com,1122334455,Gil,Dahan,M,1997-08-20,"Tel Aviv","above 60"
+Liron@gmail.com,1122334455,Liron,Paretz,M,1997-08-01,Rehovot,40₪-50₪
+mor@gmail.com,11111111,Mor,Badnani,F,1997-08-01,Eilat,30₪-40₪
+shir@gmail.com,1122334455,Shir,Dahan,F,1997-08-20,"Tel Aviv",50₪-60₪
